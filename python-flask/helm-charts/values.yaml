@@ -1,0 +1,8 @@
+replicaCount: 1
+image:
+  repository: ghcr.io/taelagab/python-flask-example
+  tag: 1
+  pullPolicy: IfNotPresent
+service:
+  type: ClusterIP
+  port: 80
